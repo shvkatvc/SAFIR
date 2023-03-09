@@ -444,7 +444,7 @@
 		margin-bottom: 15px;
 
 
-		i{
+		a{
 			color: #144A8D;
 			font-size: 50px;
 			width: 50px;
@@ -452,8 +452,17 @@
 			margin-left: 20px;
 		}
 
-		i:first-child{
+		a:first-child{
 			margin: 0;
+		}
+
+		i{
+			transition: 0.3s;
+		}
+
+		i:hover{
+			transition: 0.3s;
+			transform: translateY(-5px);
 		}
 	}
 

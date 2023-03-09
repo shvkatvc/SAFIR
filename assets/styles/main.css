@@ -357,15 +357,22 @@ p {
 .footer__bottom {
   margin-bottom: 15px;
 }
-.footer__bottom i {
+.footer__bottom a {
   color: #144A8D;
   font-size: 50px;
   width: 50px;
   height: 50px;
   margin-left: 20px;
 }
-.footer__bottom i:first-child {
+.footer__bottom a:first-child {
   margin: 0;
+}
+.footer__bottom i {
+  transition: 0.3s;
+}
+.footer__bottom i:hover {
+  transition: 0.3s;
+  transform: translateY(-5px);
 }
 .footer p {
   font-weight: 600;
