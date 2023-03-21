@@ -61,6 +61,9 @@ p {
   color: #0062bd;
   transition: 0.2s;
 }
+.header__length-plus {
+  display: none;
+}
 
 .sidebar__center {
   text-align: center;
@@ -419,18 +422,47 @@ p {
   src: url("../fonts/NotoSans-Extrabold.woff2") format("woff2"), url("../fonts/NotoSans-Extrabold.woff") format("woff");
 }
 @media screen and (max-width: 576px) {
+  .header__length ul {
+    padding: 0;
+  }
+  .header__length ul li a {
+    display: block;
+  }
+  .header__length-plus {
+    display: block;
+    position: relative;
+    top: 180px;
+  }
+  .header__length-plus ul {
+    margin-left: 50px;
+  }
+  .header__length-plus ul li {
+    margin-bottom: 20px;
+  }
+  .header__length-plus ul li a {
+    font-size: 22px;
+    color: #FFFFFF;
+    padding: 5px 0px;
+  }
+  .header__length-plus img {
+    display: none;
+  }
   .header__bg {
     width: 100%;
-    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100vh;
   }
   .header__bg .header__nav-temno {
-    margin-bottom: 50px;
+    height: 170px;
   }
   .sidebar__center h1 {
-    font-size: 50px;
-    margin-bottom: 80px;
+    display: none;
   }
   .sidebar__center p {
+    display: none;
+  }
+  .sidebar__center a {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
