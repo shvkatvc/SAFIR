@@ -17,18 +17,21 @@
             &-plus{
                 display: block;
                 position: relative;
-                top: 180px;
+                top: 110px;
 
 
                 ul{
-                    margin-left: 50px;
+                    padding: 0;
+                    text-align: center;
+
                     li{
                         margin-bottom: 20px;
 
 
                         a{
-                            font-size: 22px;
-                            color: #FFFFFF;
+                            font-size: 30px;
+                            color: #33348E;
+                            font-weight: 700;
                             padding: 5px 0px;
                         }
                     }
@@ -63,6 +66,66 @@
 
             a{
                 display: none;
+            }
+        }
+    }
+
+    .product{
+        &__section{
+            &-info{
+                padding: 22px;
+                text-align: center;
+
+
+                
+                h1{
+                    font-size: 35px;
+                }
+
+                &-sidebar{
+                    &-p{
+                        .kg{
+                            border-radius: 0px;
+                            font-size: 18px;
+                            font-weight: 600;
+                            padding: 6px 1px;
+                            border: 1px solid #E3188B;
+                        }
+    
+                        .yangi{
+                            border-radius: 0px;
+                            font-weight: 600;
+                            font-size: 18px;
+                            padding: 6px 1px;
+                            border: 1px solid #33348E;
+                        }
+    
+                        .nav{
+                            border-radius: 0px;
+                            font-weight: 600;
+                            border: 1px solid #48C85C;
+                            font-size: 18px;
+                            padding: 6px 1px;
+                        }
+                    }
+                }
+
+                a{
+                    padding: 13px 33px;
+                    font-weight: 600;
+                    border-radius: 0px;
+                    font-size: 17px;
+                    border: 1px solid #ff7825;
+                }
+                
+            }
+
+
+            &-info:hover:{
+                a{
+                    border: 1px solid #ff7825;
+                    transition: 0.4s;
+                }
             }
         }
     }
