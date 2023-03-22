@@ -155,7 +155,6 @@
             }
 
             &-img{
-                margin: 0 auto;
                 img{
                     min-width: 350px;
                     width: 100%;
@@ -206,5 +205,55 @@
 
     .remind{
         font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .contact{
+
+        h1{
+            font-size: 30px;
+        }
+
+        &__sidebar{
+            display: block;
+
+            &-info{
+                border: none;
+                padding: 35px 30px;
+
+                p{
+                    font-size: 18px;
+                }
+
+                &-details{
+                    column-gap: 10px;
+
+                    i{
+                        font-size: 22px;
+                    }
+
+                    p{
+                        font-size: 25px;
+                    }
+
+                }
+                a{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .about{
+        &__bottom{
+            &-img{
+                img{
+                    min-width: 250px;
+                    width: 100%;
+                }
+            }
+        }
     }
 }

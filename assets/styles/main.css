@@ -516,9 +516,6 @@ p {
   .about__bottom-text h1 {
     font-size: 30px;
   }
-  .about__bottom-img {
-    margin: 0 auto;
-  }
   .about__bottom-img img {
     min-width: 350px;
     width: 100%;
@@ -547,5 +544,37 @@ p {
   }
   .remind {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact h1 {
+    font-size: 30px;
+  }
+  .contact__sidebar {
+    display: block;
+  }
+  .contact__sidebar-info {
+    border: none;
+    padding: 35px 30px;
+  }
+  .contact__sidebar-info p {
+    font-size: 18px;
+  }
+  .contact__sidebar-info-details {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  .contact__sidebar-info-details i {
+    font-size: 22px;
+  }
+  .contact__sidebar-info-details p {
+    font-size: 25px;
+  }
+  .contact__sidebar-info a {
+    font-size: 18px;
+  }
+  .about__bottom-img img {
+    min-width: 250px;
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
