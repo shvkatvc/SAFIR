@@ -30,7 +30,7 @@
 
                         a{
                             font-size: 30px;
-                            color: #33348E;
+                            color: #FFFFFF;
                             font-weight: 700;
                             padding: 5px 0px;
                         }
@@ -71,11 +71,11 @@
     }
 
     .product{
+        margin-bottom: 20px;
+
         &__section{
             &-info{
-                padding: 22px;
-                text-align: center;
-
+                padding: 25px 30px;
 
                 
                 h1{
@@ -104,9 +104,13 @@
                             border-radius: 0px;
                             font-weight: 600;
                             border: 1px solid #48C85C;
-                            font-size: 18px;
-                            padding: 6px 1px;
+                            font-size: 17px;
+                            padding: 6px 10px;
                         }
+                    }
+
+                    img{
+                        width: 230px;
                     }
                 }
 
@@ -128,5 +132,26 @@
                 }
             }
         }
+    }
+
+
+    .about{
+        &__top{
+            h1{
+                font-size: 35px;
+                margin-bottom: 20px;
+            }
+
+            p{
+               font-size: 15px; 
+            }
+        }
+    }
+
+
+
+
+    .remind{
+        font-size: 20px;
     }
 }
