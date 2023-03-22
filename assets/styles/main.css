@@ -500,10 +500,6 @@ p {
     font-size: 17px;
     border: 1px solid #ff7825;
   }
-  .product__section-info:hover img {
-    transform: scale(1.1);
-    transition: 0.4s;
-  }
   .product__section-info:hover a {
     border: 1px solid #ff7825;
     transition: 0.4s;
