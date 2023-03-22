@@ -516,6 +516,9 @@ p {
   .about__bottom-text h1 {
     font-size: 30px;
   }
+  .about__bottom-img {
+    margin: 0 auto;
+  }
   .about__bottom-img img {
     min-width: 350px;
     width: 100%;
