@@ -138,7 +138,7 @@
     .about{
         &__top{
             h1{
-                font-size: 35px;
+                font-size: 30px;
                 margin-bottom: 20px;
             }
 
@@ -146,9 +146,61 @@
                font-size: 15px; 
             }
         }
+
+        &__bottom{
+            &-text{
+                h1{
+                    font-size: 30px;
+                }
+            }
+
+            &-img{
+                img{
+                    min-width: 350px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .contact{
+
+        h1{
+            font-size: 30px;
+        }
+
+        &__sidebar{
+            display: block;
+
+            &-info{
+                border: none;
+
+                &-details{
+                    i{
+                        font-size: 37px;
+                    }
+
+                    p{
+                        font-size: 25px;
+                    }
+
+                    a{
+                        font-size: 21px;
+                    }
+                }
+            }
+        }
     }
 
 
+    .footer{
+        &__centre{
+            ul{
+                padding: 0;
+                display: block;
+            }
+        }
+    }
 
 
     .remind{
