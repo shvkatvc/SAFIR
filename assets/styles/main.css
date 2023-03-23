@@ -450,7 +450,7 @@ p {
   .header__length-plus {
     display: block;
     position: relative;
-    top: 200px;
+    top: 175px;
   }
   .header__length-plus ul {
     padding: 0;
@@ -620,7 +620,7 @@ p {
   .knopka__vverx a {
     right: 10px;
     font-size: 15px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     bottom: 10px;
   }
 }/*# sourceMappingURL=main.css.map */
