@@ -17,7 +17,7 @@
             &-plus{
                 display: block;
                 position: relative;
-                top: 110px;
+                top: 200px;
 
 
                 ul{
@@ -147,6 +147,10 @@
             }
         }
 
+        swiper-slide img{
+            object-fit: contain;
+        }
+
         &__bottom{
             &-text{
                 h1{
@@ -202,6 +206,15 @@
         }
     }
 
+    .knopka__vverx{
+        a{
+            right: 10px;
+            font-size: 20px;
+            padding: 7px 15px;
+            bottom: 10px;
+        }
+    }
+
 
     .remind{
         font-size: 20px;
@@ -210,6 +223,22 @@
 
 
 @media screen and (max-width: 320px){
+    .header{
+        &__length{
+            &-plus{
+                top: 100px;
+
+                ul{
+                    li{
+                        a{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .contact{
 
         h1{
@@ -254,6 +283,15 @@
                     width: 100%;
                 }
             }
+        }
+    }
+
+    .knopka__vverx{
+        a{
+            right: 10px;
+            font-size: 15px;
+            padding: 5px 10px;
+            bottom: 10px;
         }
     }
 }

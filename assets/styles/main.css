@@ -273,7 +273,7 @@ p {
 .contact {
   background-color: #FAF8EA;
   padding-top: 35px;
-  margin-bottom: 50px;
+  margin-bottom: px;
 }
 .contact h1 {
   font-weight: 700;
@@ -289,7 +289,7 @@ p {
   margin-bottom: 35px;
 }
 .contact__sidebar-info {
-  border-right: 3px solid #000000;
+  border-right: 3px solid #33348E;
   padding: 40px 60px;
 }
 .contact__sidebar-info p, .contact__sidebar-info a {
@@ -324,7 +324,7 @@ p {
 
 .footer {
   text-align: center;
-  margin-bottom: 50px;
+  padding: 50px 0;
 }
 .footer__top img {
   margin-bottom: 30px;
@@ -365,6 +365,30 @@ p {
   font-weight: 600;
   font-size: 18px;
   color: #144A8D;
+}
+
+.knopka__vverx {
+  position: relative;
+}
+.knopka__vverx a {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  position: fixed;
+  color: #FFFFFF;
+  background-color: #33348E;
+  font-size: 25px;
+  border-radius: 50%;
+  padding: 10px 20px;
+  transition: 0.3s;
+  z-index: 1;
+  border: 3px solid #33348E;
+}
+.knopka__vverx a:hover {
+  color: #33348E;
+  transition: 0.3s;
+  background-color: #FFFFFF;
+  border: 3px solid #33348E;
 }
 
 @font-face {
@@ -426,7 +450,7 @@ p {
   .header__length-plus {
     display: block;
     position: relative;
-    top: 110px;
+    top: 200px;
   }
   .header__length-plus ul {
     padding: 0;
@@ -513,6 +537,10 @@ p {
   .about__top p {
     font-size: 15px;
   }
+  .about swiper-slide img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
   .about__bottom-text h1 {
     font-size: 30px;
   }
@@ -542,11 +570,23 @@ p {
     padding: 0;
     display: block;
   }
+  .knopka__vverx a {
+    right: 10px;
+    font-size: 20px;
+    padding: 7px 15px;
+    bottom: 10px;
+  }
   .remind {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 320px) {
+  .header__length-plus {
+    top: 100px;
+  }
+  .header__length-plus ul li a {
+    font-size: 25px;
+  }
   .contact h1 {
     font-size: 30px;
   }
@@ -576,5 +616,11 @@ p {
   .about__bottom-img img {
     min-width: 250px;
     width: 100%;
+  }
+  .knopka__vverx a {
+    right: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    bottom: 10px;
   }
 }/*# sourceMappingURL=main.css.map */
