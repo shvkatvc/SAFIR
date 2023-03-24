@@ -563,6 +563,9 @@ p {
   .contact__sidebar-info {
     border: none;
   }
+  .contact__sidebar-info a {
+    font-size: 23px;
+  }
   .contact__sidebar-info-details i {
     font-size: 37px;
   }
