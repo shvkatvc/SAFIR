@@ -35,12 +35,6 @@ p {
   padding: 0;
 }
 
-.container {
-  max-width: 1150px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
 .header__bg {
   background-image: url("../images/icons/header__bg-img.jpg");
   background-repeat: no-repeat;
@@ -447,6 +441,9 @@ p {
   src: url("../fonts/NotoSans-Extrabold.woff2") format("woff2"), url("../fonts/NotoSans-Extrabold.woff") format("woff");
 }
 @media screen and (min-width: 1140px) and (max-width: 1400px) {
+  .header__bg .header__nav-temno {
+    margin-bottom: 50px;
+  }
   .header__length ul li a {
     font-size: 18px;
   }
