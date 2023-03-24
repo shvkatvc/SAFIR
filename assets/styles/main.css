@@ -446,7 +446,7 @@ p {
   font-display: swap;
   src: url("../fonts/NotoSans-Extrabold.woff2") format("woff2"), url("../fonts/NotoSans-Extrabold.woff") format("woff");
 }
-@media screen and (max-width: 1350px) {
+@media screen and (min-width: 1140px) and (max-width: 1400px) {
   .header__length ul li a {
     font-size: 18px;
   }
