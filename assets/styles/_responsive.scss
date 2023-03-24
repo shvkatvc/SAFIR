@@ -1,3 +1,98 @@
+@media screen and (min-width: 1140px and max-width: 1350px){
+    .header{
+        &__length{
+            ul{
+                li{
+                    a{
+                        font-size: 18px;
+                    }
+
+                    img{
+                        height: 55px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sidebar{
+        &__center{
+            h1{
+                font-size: 75px;
+                letter-spacing: 3px;
+            }
+
+            p{
+                font-size: 22px;
+                line-height: 45px;
+            }
+
+            a{
+                font-size: 17px;
+                padding: 15px 40px;
+            }
+        }
+    }
+
+    .product{
+        &__section{
+            &-info{
+                padding: 25px 40px;
+
+                &-sidebar{
+                    img{
+                        width: 240px;
+                    }
+
+                    &-p{
+                        .kg{
+                            font-size: 15px;
+                            padding: 5px 5px;
+                        }
+
+                        .yangi{
+                            font-size: 15px;
+                            padding: 5px 5px;
+                        }
+
+                        .nav{
+                            font-size: 17px;
+                            padding: 5px 5px;
+                        }
+
+                    }
+                }
+
+                h1{
+                    font-size: 35px;
+                }
+
+                a{
+                    font-size: 15px;
+                    padding: 10px 30px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px){
     .header{
         &__length{
@@ -224,6 +319,19 @@
         font-size: 20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 320px){

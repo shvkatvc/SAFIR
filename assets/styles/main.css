@@ -446,6 +446,51 @@ p {
   font-display: swap;
   src: url("../fonts/NotoSans-Extrabold.woff2") format("woff2"), url("../fonts/NotoSans-Extrabold.woff") format("woff");
 }
+@media screen and (max-width: 1350px) {
+  .header__length ul li a {
+    font-size: 18px;
+  }
+  .header__length ul li img {
+    height: 55px;
+  }
+  .sidebar__center h1 {
+    font-size: 75px;
+    letter-spacing: 3px;
+  }
+  .sidebar__center p {
+    font-size: 22px;
+    line-height: 45px;
+  }
+  .sidebar__center a {
+    font-size: 17px;
+    padding: 15px 40px;
+  }
+  .product__section-info {
+    padding: 25px 40px;
+  }
+  .product__section-info-sidebar img {
+    width: 240px;
+  }
+  .product__section-info-sidebar-p .kg {
+    font-size: 15px;
+    padding: 5px 5px;
+  }
+  .product__section-info-sidebar-p .yangi {
+    font-size: 15px;
+    padding: 5px 5px;
+  }
+  .product__section-info-sidebar-p .nav {
+    font-size: 17px;
+    padding: 5px 5px;
+  }
+  .product__section-info h1 {
+    font-size: 35px;
+  }
+  .product__section-info a {
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+}
 @media screen and (max-width: 576px) {
   .header__length ul {
     padding: 0;
