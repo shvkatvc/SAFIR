@@ -110,6 +110,9 @@ p {
   display: flex;
   gap: 6px;
 }
+.product__section .extra__menu {
+  display: none;
+}
 .product__section-info {
   flex-grow: 1;
   transition: 0.4s;
@@ -174,6 +177,9 @@ p {
   border: 3px solid #ff7825;
   font-weight: 600;
   transition: 0.4s;
+}
+.product__section-info a:hover + .extra__menu {
+  display: block;
 }
 .product__section-info:hover {
   background-color: rgb(8, 109, 112);
