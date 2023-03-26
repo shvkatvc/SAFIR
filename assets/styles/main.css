@@ -111,12 +111,22 @@ p {
   gap: 6px;
   position: relative;
 }
-.product__section .extra {
+.product__section .extra1 {
   display: none;
   position: absolute;
   top: 5px;
 }
-.product__section .extra p {
+.product__section .extra1 p {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.product__section .extra2 {
+  display: none;
+  position: absolute;
+  top: 400px;
+}
+.product__section .extra2 p {
   font-size: 18px;
   color: #FFFFFF;
   font-weight: 600;
@@ -153,26 +163,48 @@ p {
   font-weight: 700;
   transition: 0.4s;
 }
-.product__section-info a:hover + .extra {
+.product__section-info a:hover + .extra1 {
   display: block;
   background-color: rgba(0, 78, 66, 0.75);
   padding: 40px;
   border: 1px solid #FFFFFF;
 }
-.product__section-info a:hover + .extra .extra__menu .extra__menu-flex {
+.product__section-info a:hover + .extra1 .extra__menu1 .extra__menu-flex1 {
   display: flex;
   align-items: center;
   background-color: #FFFFFF;
   margin-bottom: 10px;
 }
-.product__section-info a:hover + .extra .extra__menu .extra__menu-flex i {
+.product__section-info a:hover + .extra1 .extra__menu1 .extra__menu-flex1 i {
   font-size: 50px;
   padding: 5px;
   background-color: #E3188B;
   color: #33348E;
   border-radius: 20px;
 }
-.product__section-info a:hover + .extra .extra__menu .extra__menu-flex p {
+.product__section-info a:hover + .extra1 .extra__menu1 .extra__menu-flex1 p {
+  color: #000000;
+}
+.product__section-info a:hover + .extra2 {
+  display: block;
+  background-color: rgba(0, 78, 66, 0.75);
+  padding: 40px;
+  border: 1px solid #FFFFFF;
+}
+.product__section-info a:hover + .extra2 .extra__menu2 .extra__menu-flex2 {
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.product__section-info a:hover + .extra2 .extra__menu2 .extra__menu-flex2 i {
+  font-size: 50px;
+  padding: 5px;
+  background-color: #E3188B;
+  color: #33348E;
+  border-radius: 20px;
+}
+.product__section-info a:hover + .extra2 .extra__menu2 .extra__menu-flex2 p {
   color: #000000;
 }
 .product__section-info:hover {

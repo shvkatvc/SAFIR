@@ -119,13 +119,24 @@
 		
 		
 		
-		.extra{
+		.extra1{
 			display: none;
 			position: absolute;
-			top: 5px;
+			top: 5px;	
 			
-			
-			
+			p{
+				font-size: 18px;
+				color: #FFFFFF;
+				font-weight: 600;
+				
+			}
+		}
+
+		.extra2{
+			display: none;
+			position: absolute;
+			top: 400px;
+
 			p{
 				font-size: 18px;
 				color: #FFFFFF;
@@ -174,15 +185,46 @@
 				transition: 0.4s;
 			}
 
-			a:hover + .extra{
+			a:hover + .extra1{
 				display: block;
 				background-color: rgba(0,78,66,.75);
 				padding: 40px;
 				border: 1px solid #FFFFFF;
 
 
-				.extra__menu{
-					.extra__menu-flex{
+				.extra__menu1{
+					.extra__menu-flex1{
+						display: flex;
+						align-items: center;
+						 background-color: #FFFFFF;
+						 margin-bottom: 10px;
+
+						i{
+							font-size: 50px;
+							padding: 5px;
+							background-color: #E3188B;
+							color: #33348E;
+							border-radius: 20px;
+						}
+
+						p{
+							color: #000000;
+						}
+					}
+				}
+			}
+
+
+
+			a:hover + .extra2{
+				display: block;
+				background-color: rgba(0,78,66,.75);
+				padding: 40px;
+				border: 1px solid #FFFFFF;
+
+
+				.extra__menu2{
+					.extra__menu-flex2{
 						display: flex;
 						align-items: center;
 						 background-color: #FFFFFF;
