@@ -201,17 +201,17 @@
                 }
 
                 a{
-                    padding: 13px 33px;
-                    font-weight: 600;
-                    border-radius: 0px;
+                    padding: 9px 30px;
+                    font-weight: 700;
+                    border-radius: 17px;
                     font-size: 17px;
-                    border: 1px solid #ff7825;
                 }
 
 
 
                 .extra{
                     top: 7px;
+                    left: 52px;
                 }
 
 
@@ -222,9 +222,8 @@
                     
                     .extra__menu{
                         .extra__menu-flex{
-                            padding-bottom: 5px;
                             column-gap: 10px;
-                            margin-bottom: 15px;
+                            
                             
                             i{
                                 font-size: 33px;
@@ -237,14 +236,6 @@
                     }
                 }
                 
-            }
-
-
-            &-info:hover{
-                a{
-                    border: 1px solid #ff7825;
-                    transition: 0.4s;
-                }
             }
         }
     }
@@ -364,6 +355,42 @@
                     li{
                         a{
                             font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .product{
+        &__section{
+            &-info{
+                .extra{
+                    top: 5px;
+                    right: 50px;
+                }
+            
+            
+                a:hover + .extra{
+                    padding: 5px 5px;
+                    border-radius: 20px;
+                    
+                    
+                    .extra__menu{
+                        .extra__menu-flex{
+                            border: none;
+                            column-gap: 10px;
+                            
+                            
+                            i{
+                                font-size: 25px;
+                            }
+                            
+                            p{
+                                font-size: 13px;
+                            }
                         }
                     }
                 }
