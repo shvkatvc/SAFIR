@@ -118,11 +118,6 @@ p {
   border: 3px solid #33348E;
   text-align: start !important;
 }
-.product__section .extra p {
-  font-size: 18px;
-  color: #FFFFFF;
-  font-weight: 600;
-}
 .product__section-info {
   flex-grow: 1;
   transition: 0.4s;
@@ -175,7 +170,6 @@ p {
 .product__section-info a:hover + .extra .extra__menu .extra__menu-flex i {
   font-size: 45px;
   color: #33348E;
-  border-radius: 20px;
 }
 .product__section-info a:hover + .extra .extra__menu .extra__menu-flex p {
   color: #33348E;
@@ -470,6 +464,27 @@ p {
     font-size: 15px;
     padding: 10px 30px;
   }
+  .product__section-info .extra {
+    top: 10px;
+  }
+  .product__section-info a:hover + .extra {
+    padding: 20px 40px;
+    border-radius: 20px;
+  }
+  .product__section-info a:hover + .extra .extra__menu .extra__menu-flex {
+    padding-bottom: 5px;
+    border-radius: 10px;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    margin-bottom: 12px;
+  }
+  .product__section-info a:hover + .extra .extra__menu .extra__menu-flex i {
+    font-size: 30px;
+    color: #33348E;
+  }
+  .product__section-info a:hover + .extra .extra__menu .extra__menu-flex p {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 576px) {
   .header__length ul {
@@ -535,6 +550,25 @@ p {
     border-radius: 0px;
     font-size: 17px;
     border: 1px solid #ff7825;
+  }
+  .product__section-info .extra {
+    top: 7px;
+  }
+  .product__section-info a:hover + .extra {
+    padding: 10px 28px;
+    border-radius: 25px;
+  }
+  .product__section-info a:hover + .extra .extra__menu .extra__menu-flex {
+    padding-bottom: 5px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    margin-bottom: 15px;
+  }
+  .product__section-info a:hover + .extra .extra__menu .extra__menu-flex i {
+    font-size: 33px;
+  }
+  .product__section-info a:hover + .extra .extra__menu .extra__menu-flex p {
+    font-size: 15px;
   }
   .product__section-info:hover a {
     border: 1px solid #ff7825;
