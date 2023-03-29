@@ -145,7 +145,7 @@
             &-plus{
                 display: block;
                 position: relative;
-                top: 175px;
+                top: 20px;
 
 
                 ul{
@@ -177,11 +177,14 @@
 
     .header__bg{
 	    width: 100%;
-        object-fit: cover;
-	    height: 100vh;
+        background-size: cover;
+	    height: 50vh;
+        background-position: center;
 
         .header__nav-temno{
-            height: 170px;
+            background-color: transparent;
+            height: 0;
+            padding-top: 80px;
         }
     }
 

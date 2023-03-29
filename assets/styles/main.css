@@ -508,7 +508,7 @@ p {
   .header__length-plus {
     display: block;
     position: relative;
-    top: 175px;
+    top: 20px;
   }
   .header__length-plus ul {
     padding: 0;
@@ -530,12 +530,14 @@ p {
   }
   .header__bg {
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    height: 100vh;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
   }
   .header__bg .header__nav-temno {
-    height: 170px;
+    background-color: transparent;
+    height: 0;
+    padding-top: 80px;
   }
   .sidebar__center h1 {
     display: none;
