@@ -537,7 +537,7 @@ p {
   .header__bg .header__nav-temno {
     background-color: transparent;
     height: 0;
-    padding-top: 80px;
+    padding-top: 50px;
   }
   .sidebar__center h1 {
     display: none;
