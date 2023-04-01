@@ -1,7 +1,7 @@
 // header section start
 
 .header__bg{
-	background-image: url("../images/icons/header__bg-img.jpg");
+	background-image: url("../images/org/header__bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -10,7 +10,7 @@
 	margin-bottom: 5px;
 
 	.header__nav-temno{
-		background: rgba(0, 0, 0, 0.8);
+		background: rgba(0, 0, 0, 0.2);
 		padding: 40px 0;
 		margin-bottom: 100px;
 	}
@@ -26,6 +26,12 @@
 					font-size: 22px;
 					padding: 6px;
 					transition: 0.4s;
+
+					img{
+						background-color: #FFFFFF;
+						border-radius: 10px;
+						padding: 5px;
+					}
 				}
 				
 				a:hover{
@@ -507,4 +513,12 @@
 		background-color: #FFFFFF;
 		border: 3px solid #33348E;
 	}
+}
+
+#kok150{
+	margin-top: 120px;
+}
+
+#kok250{
+	padding-top: 45px;
 }

@@ -36,7 +36,7 @@ p {
 }
 
 .header__bg {
-  background-image: url("../images/icons/header__bg-img.jpg");
+  background-image: url("../images/org/header__bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -45,7 +45,7 @@ p {
   margin-bottom: 5px;
 }
 .header__bg .header__nav-temno {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.2);
   padding: 40px 0;
   margin-bottom: 100px;
 }
@@ -56,6 +56,11 @@ p {
   font-size: 22px;
   padding: 6px;
   transition: 0.4s;
+}
+.header__length ul li a img {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 5px;
 }
 .header__length ul li a:hover {
   color: #0062bd;
@@ -380,6 +385,14 @@ p {
   border: 3px solid #33348E;
 }
 
+#kok150 {
+  margin-top: 120px;
+}
+
+#kok250 {
+  padding-top: 45px;
+}
+
 @font-face {
   font-family: "Noto Sans";
   font-weight: 200;
@@ -435,6 +448,9 @@ p {
   }
   .header__length ul li a {
     font-size: 18px;
+  }
+  .header__length ul li a img {
+    background-color: transparent;
   }
   .header__length ul li img {
     height: 55px;
@@ -499,14 +515,29 @@ p {
   }
 }
 @media screen and (max-width: 576px) {
+  .header__bg {
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+  }
+  .header__bg .header__nav-temno {
+    background-color: transparent;
+    height: 0;
+    padding-top: 20px;
+  }
   .header__length ul {
     padding: 0;
   }
   .header__length ul li a {
     display: block;
   }
+  .header__length ul li a img {
+    border-radius: 15px;
+    padding: 5px;
+  }
   .header__length-plus {
-    display: block;
+    display: none;
     position: relative;
     top: 20px;
   }
@@ -527,17 +558,6 @@ p {
   }
   .header__length-plus img {
     display: none;
-  }
-  .header__bg {
-    width: 100%;
-    background-size: cover;
-    height: 50vh;
-    background-position: center;
-  }
-  .header__bg .header__nav-temno {
-    background-color: transparent;
-    height: 0;
-    padding-top: 50px;
   }
   .sidebar__center h1 {
     display: none;

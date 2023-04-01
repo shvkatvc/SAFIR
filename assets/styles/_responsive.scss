@@ -11,6 +11,10 @@
                 li{
                     a{
                         font-size: 18px;
+
+                        img{
+                            background-color: transparent;
+                        }
                     }
 
                     img{
@@ -127,6 +131,19 @@
 
 
 @media screen and (max-width: 576px){
+    .header__bg{
+	    width: 100%;
+        background-size: cover;
+	    height: 50vh;
+        background-position: center;
+
+        .header__nav-temno{
+            background-color: transparent;
+            height: 0;
+            padding-top: 20px;
+        }
+    }
+
     .header{
         &__length{
             ul{
@@ -135,6 +152,11 @@
                 li{
                     a{
                         display: block;
+
+                        img{
+                            border-radius: 15px;
+                            padding: 5px;
+                        }
                     }
                 }
             }
@@ -143,7 +165,7 @@
 
         &__length{
             &-plus{
-                display: block;
+                display: none;
                 position: relative;
                 top: 20px;
 
@@ -172,19 +194,6 @@
                     display: none;
                 }
             }
-        }
-    }
-
-    .header__bg{
-	    width: 100%;
-        background-size: cover;
-	    height: 50vh;
-        background-position: center;
-
-        .header__nav-temno{
-            background-color: transparent;
-            height: 0;
-            padding-top: 50px;
         }
     }
 
