@@ -141,7 +141,7 @@
 			flex-grow: 1;
 			transition: 0.4s;
 			background-color: #F7F7F7;
-			padding: 22px 77px 40px 77px;
+			padding: 25px;
 			text-align: center;
 			position: relative;
 
@@ -183,6 +183,9 @@
 			// hoveeeeeeeeeeeeeeeeeeeeeeeeeeeer
 			a:hover + .extra{
 				display: block;
+				width: 95%;
+				height: 80%;
+				z-index: 5;
 				background-color: #ffffffeb;
 				padding: 10px 60px;
 				border-radius: 20px;

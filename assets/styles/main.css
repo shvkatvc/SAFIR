@@ -127,7 +127,7 @@ p {
   flex-grow: 1;
   transition: 0.4s;
   background-color: #F7F7F7;
-  padding: 22px 77px 40px 77px;
+  padding: 25px;
   text-align: center;
   position: relative;
 }
@@ -158,6 +158,9 @@ p {
 }
 .product__section-info a:hover + .extra {
   display: block;
+  width: 95%;
+  height: 80%;
+  z-index: 5;
   background-color: rgba(255, 255, 255, 0.9215686275);
   padding: 10px 60px;
   border-radius: 20px;
