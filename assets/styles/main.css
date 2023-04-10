@@ -502,14 +502,14 @@ p {
   .header__bg {
     width: 100%;
     background-size: cover;
-    height: 50vh;
+    height: 55vh;
     background-position: center;
   }
   .header__bg .header__nav-temno {
     background-color: transparent;
     height: 0;
     padding-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
   .header__length ul {
     padding: 0;
@@ -530,7 +530,7 @@ p {
     font-weight: 500;
     text-shadow: 2px 2px 0px #0062bd;
     line-height: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #FFFFFF;
   }
   .sidebar__center a {
