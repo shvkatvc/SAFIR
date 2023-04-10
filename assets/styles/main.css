@@ -80,11 +80,15 @@ p {
 }
 .sidebar__center p {
   font-weight: 600;
+  text-shadow: 3px 3px 0px #0062bd;
   font-size: 28px;
   letter-spacing: 3px;
   line-height: 55px;
   color: #FFFFFF;
   margin-bottom: 55px;
+}
+.sidebar__center h4 {
+  display: none;
 }
 .sidebar__center a {
   color: #FFFFFF;
@@ -505,12 +509,10 @@ p {
     background-color: transparent;
     height: 0;
     padding-top: 20px;
+    margin-bottom: 60px;
   }
   .header__length ul {
     padding: 0;
-  }
-  .header__length ul li a {
-    display: block;
   }
   .header__length ul li a img {
     border-radius: 15px;
@@ -521,6 +523,15 @@ p {
   }
   .sidebar__center p {
     display: none;
+  }
+  .sidebar__center h4 {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 2px 2px 0px #0062bd;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
   }
   .sidebar__center a {
     display: none;

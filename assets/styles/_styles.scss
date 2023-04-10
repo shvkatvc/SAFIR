@@ -67,14 +67,19 @@
 			letter-spacing: 4px;
     		text-shadow: 6px 4px 0px #0062bd;
 		}
-
+		
 		p{
 			font-weight: 600;
+			text-shadow: 3px 3px 0px #0062bd;
 			font-size: 28px;
 			letter-spacing: 3px;
 			line-height: 55px;
 			color: #FFFFFF;
 			margin-bottom: 55px;
+		}
+
+		h4{
+			display: none;
 		}
 
 		a{
