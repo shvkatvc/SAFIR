@@ -454,8 +454,16 @@ p {
     letter-spacing: 3px;
   }
   .sidebar__center p {
-    font-size: 22px;
-    line-height: 45px;
+    display: none;
+  }
+  .sidebar__center h4 {
+    display: block;
+    margin-bottom: 50px;
+    text-shadow: 2px 3px 0px #0062bd;
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #FFFFFF;
   }
   .sidebar__center a {
     font-size: 17px;
